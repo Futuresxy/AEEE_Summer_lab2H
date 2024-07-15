@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1720769182">
+  <File Type="ROUTE-PWR" Name="Windows_data_Test_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Windows_data_Test_wrapper.tcl"/>
+  <File Type="BITSTR-MMI" Name="Windows_data_Test_wrapper.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Windows_data_Test_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Windows_data_Test_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Windows_data_Test_wrapper_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Windows_data_Test_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Windows_data_Test_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Windows_data_Test_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Windows_data_Test_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Windows_data_Test_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Windows_data_Test_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Windows_data_Test_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Windows_data_Test_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Windows_data_Test_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Windows_data_Test_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Windows_data_Test_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Windows_data_Test_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Windows_data_Test_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Windows_data_Test_wrapper.bin"/>
+  <File Type="PLACE-TIMING" Name="Windows_data_Test_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Windows_data_Test_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Windows_data_Test_wrapper.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Windows_data_Test_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Windows_data_Test_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Windows_data_Test_wrapper.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Windows_data_Test_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Windows_data_Test_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Windows_data_Test_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Windows_data_Test_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Windows_data_Test_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Windows_data_Test_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Windows_data_Test_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Windows_data_Test_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Windows_data_Test_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Windows_data_Test_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Windows_data_Test_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Windows_data_Test_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Windows_data_Test_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Windows_data_Test_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Windows_data_Test_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Windows_data_Test_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Windows_data_Test_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Windows_data_Test_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Windows_data_Test_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Windows_data_Test_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Windows_data_Test_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Windows_data_Test_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Windows_data_Test_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Windows_data_Test_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Windows_data_Test_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Windows_data_Test_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Windows_data_Test_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Windows_data_Test_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Windows_data_Test_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Windows_data_Test_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Windows_data_Test_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Windows_data_Test_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="Windows_data_Test_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="Windows_data_Test_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="Windows_data_Test_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="Windows_data_Test_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="Windows_data_Test_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Windows_data_Test_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Windows_data_Test_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="Windows_data_Test_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="Windows_data_Test_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="Windows_data_Test_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Windows_data_Test_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Windows_data_Test_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_package_rtl/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v"/>
+        <Attr Name="ImportTime" Val="1710324274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_package_rtl/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v"/>
+        <Attr Name="ImportTime" Val="1712324473"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_package_rtl/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v"/>
+        <Attr Name="ImportTime" Val="1712396807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/window_ip/windows.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_package_rtl/window_ip/windows.v"/>
+        <Attr Name="ImportTime" Val="1712397274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_package_rtl/window_ip/Windows_Data_Convert_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1712300296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Windows_data_Test/Windows_data_Test.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/Windows_data_Test/hdl/Windows_data_Test_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/picture_fifo_0/picture_fifo_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ila_window/ila_window.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_weightfc/fifo_weightfc.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_weight/fifo_weight.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_result/fifo_result.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Windows_data_Test_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pynq_z2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pynq_z2.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Conv_SystolicArray.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="div_gen_0"/>
+</GenRun>

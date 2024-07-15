@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Accelerator/Accelerator_Test_Windows/Accelerator.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="2,049"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="322"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+      <marker time="0" label="" />
+   </wave_markers>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TDATA" type="array">
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TDATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TDATA[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TKEEP" type="array">
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TKEEP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TKEEP[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TREADY" type="logic">
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TREADY</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TSTRB" type="array">
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TSTRB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TSTRB[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TVALID" type="logic">
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TVALID</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TLAST" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Accelerator_block_design_i/CNN_ACCELERATOR/CNN_Control_0_result_TLAST</obj_property>
+      <obj_property name="ObjectShortName">CNN_Control_0_result_TLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

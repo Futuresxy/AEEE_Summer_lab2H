@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CNN_Accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CNN_Accelerator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="6.660001 us"></ZoomEndTime>
+      <Cursor1Time time="0.210000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/CONV_00/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/CONV_00/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/io_Max_MeanValid" type="logic">
+      <obj_property name="ElementShortName">io_Max_MeanValid</obj_property>
+      <obj_property name="ObjectShortName">io_Max_MeanValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/io_outSum" type="array">
+      <obj_property name="ElementShortName">io_outSum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_outSum[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/pool_finish" type="logic">
+      <obj_property name="ElementShortName">pool_finish</obj_property>
+      <obj_property name="ObjectShortName">pool_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/POOL/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/fifo_act/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/result_tready" type="logic">
+      <obj_property name="ElementShortName">result_tready</obj_property>
+      <obj_property name="ObjectShortName">result_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/result_tvalid" type="logic">
+      <obj_property name="ElementShortName">result_tvalid</obj_property>
+      <obj_property name="ObjectShortName">result_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/result_tdata" type="array">
+      <obj_property name="ElementShortName">result_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CNN_Accelerator_tb/CNN_Accelerator_00/cnn_done" type="logic">
+      <obj_property name="ElementShortName">cnn_done</obj_property>
+      <obj_property name="ObjectShortName">cnn_done</obj_property>
+   </wvobject>
+</wave_config>
