@@ -1,2 +1,0 @@
-fifo_weight.v,verilog,xil_defaultlib,../../../../Accelerator.gen/sources_1/ip/fifo_weight/sim/fifo_weight.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
-glbl.v,Verilog,xil_defaultlib,glbl.v

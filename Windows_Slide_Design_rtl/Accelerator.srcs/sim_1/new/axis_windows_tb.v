@@ -50,8 +50,8 @@ module axis_windows_tb(
 	    wire[ DATA_WIDTH*KERNEL_SIZE*KERNEL_SIZE-1:0]  outdata;
 	    wire  outvalid;
 	    wire OUT_DATA_LAST;
-	// 滑窗模块
-	Windows_Data_Convert_v1_0  #
+	// 滑窗模块_v1_0
+	Windows_Data_Convert_0  #
 	(
 		. KERNEL_SIZE              (KERNEL_SIZE ), // 卷积核心的大小 4x4              
 		. DATA_HORIZONTAL          (DATA_HORIZONTAL),//输入数据的横向长
@@ -171,9 +171,13 @@ module axis_windows_tb(
 	 else
 		begin
 		if(ppready ==1)begin
+		  if(cnt_line<=323)begin
 			count_w  <= $fscanf(fp_i,"%d" ,image_in);
+			end
 			
 			cnt_line <= cnt_line + 1;
+			
+			
 			if(cnt_line < 11'd322)  
 			     ppvalid<=1;
 			else if(cnt_line == 11'd322) 
@@ -185,10 +189,19 @@ module axis_windows_tb(
 			   pplast<=0;
 	          ppvalid  <=0;
 			end
-			else
+			else if(cnt_line== 11'd323)begin
+			   $fclose(fp_i);
+			   end
+			else if(cnt_line<500)begin
 			   mmready<=1;
-			end
+			   end
+			else if(cnt_line== 500)begin
+			 fp_i = $fopen("E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/18_18_4.txt","r"); // 数字 3
+             cnt_line<=0;
+             mmready<=0;
+      end//			   
 		end
+	end
 	end
 	reg read_en;
 	wire [9:0] data_count;

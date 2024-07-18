@@ -276,7 +276,7 @@ always @( posedge S_AXI_ACLK )
 	    begin
         slv_reg0<=DATA_HORIZONTAL    ;
         slv_reg1<=DATA_VERTICAL ;
-        slv_reg2<=KERNEL_SIZE   ;//KERNEL_SIZE
+        slv_reg2<=3   ;//KERNEL_SIZE
         slv_reg3<=STRIDE         ;
 	    slv_reg4 <= 0;
 	    end 

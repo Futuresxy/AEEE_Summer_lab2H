@@ -2,16 +2,16 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Mon Jul 15 15:04:06 2024
-# Process ID: 3808
-# Current directory: E:/Accelerator/Accelerator_Test_Windows
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6140 E:\Accelerator\Accelerator_Test_Windows\Accelerator.xpr
-# Log file: E:/Accelerator/Accelerator_Test_Windows/vivado.log
-# Journal file: E:/Accelerator/Accelerator_Test_Windows\vivado.jou
+# Start of session at: Wed Jul 17 20:27:14 2024
+# Process ID: 5896
+# Current directory: E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2132 E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.xpr
+# Log file: E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/vivado.log
+# Journal file: E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl\vivado.jou
 # Running On: DESKTOP-JO2RAF5, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17041 MB
 #-----------------------------------------------------------
 start_gui
-open_project E:/Accelerator/Accelerator_Test_Windows/Accelerator.xpr
+open_project E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
@@ -24,34 +24,78 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/myip_1.0'.
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_package_rtl/CNN_Control'.
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'.
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/myip_1.0'.
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/IP_design/Windows_Data_Convert_1.0'.
-WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'E:/Accelerator/ip_repo/Accelerator_Control_1.0'.
+INFO: [Project 1-313] Project file moved from 'E:/Accelerator/Accelerator_Test_Windows' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0', nor could it be found using path 'E:/Accelerator/ip_repo/myip_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control', nor could it be found using path 'E:/Accelerator/ip_package_rtl/CNN_Control'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0', nor could it be found using path 'E:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0', nor could it be found using path 'E:/Accelerator/ip_repo/myip_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0', nor could it be found using path 'E:/Accelerator/IP_design/Windows_Data_Convert_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0', nor could it be found using path 'E:/Accelerator/ip_repo/Accelerator_Control_1.0'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp', nor could it be found using path 'E:/Accelerator/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp'.
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
 Scanning sources...
 Finished scanning sources
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+WARNING: [Project 1-865] Could not find the file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/myip_1.0'; Can't find the specified path.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_package_rtl/CNN_Control'; Can't find the specified path.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/myip_1.0'; Can't find the specified path.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
-open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 1661.461 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 1747.953 ; gain = 0.000
 update_compile_order -fileset sources_1
-open_bd_design {E:/Accelerator/Accelerator_Test_Windows/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd}
-Reading block design file <E:/Accelerator/Accelerator_Test_Windows/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd>...
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Accelerator/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+update_module_reference Windows_data_Test_Windows_Data_Convert_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's01_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'm00_axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's00_axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's01_axi_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+Reading block design file <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd>...
 Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
 Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_1
 Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
@@ -76,7 +120,1276 @@ Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - Picture
 Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
 INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
 Adding component instance block -- xilinx.com:module_ref:Windows_Data_Convert_v1_0:1.0 - Windows_Data_Convert_0
-Successfully read diagram <Windows_data_Test> from block design file <E:/Accelerator/Accelerator_Test_Windows/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd>
-open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1661.461 ; gain = 0.000
+Successfully read diagram <Windows_data_Test> from block design file <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd>
+Upgrading 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd'
+INFO: [IP_Flow 19-3420] Updated Windows_data_Test_Windows_Data_Convert_0_1 to use current project options
+Wrote  : <E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.srcs\sources_1\bd\Windows_data_Test\Windows_data_Test.bd> 
+Wrote  : <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/ui/bd_22a3e04b.ui> 
+upgrade_ip: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1747.953 ; gain = 0.000
+update_module_reference: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1747.953 ; gain = 0.000
+INFO: [Vivado 12-5457] ref source:E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
+generate_target Simulation [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'div_gen_0'. Target already exists and is up to date.
+generate_target Simulation [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M02_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M05_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M03_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M05_AXI'
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+Wrote  : <E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.srcs\sources_1\bd\Windows_data_Test\Windows_data_Test.bd> 
+Wrote  : <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/ui/bd_22a3e04b.ui> 
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/synth/Windows_data_Test.v
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/sim/Windows_data_Test.v
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hdl/Windows_data_Test_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block INACT_DATA_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_outw .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Picture .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Windows_Data_Convert_0 .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m04_couplers/auto_pc .
+Exporting to file e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hw_handoff/Windows_data_Test.hwh
+Generated Hardware Definition File e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/synth/Windows_data_Test.hwdef
+generate_target: Time (s): cpu = 00:00:42 ; elapsed = 00:00:41 . Memory (MB): peak = 1931.871 ; gain = 183.918
+export_ip_user_files -of_objects [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd] -directory E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/sim_scripts -ip_user_files_dir E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files -ipstatic_source_dir E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.cache/compile_simlib/modelsim} {questa=E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.cache/compile_simlib/questa} {riviera=E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.cache/compile_simlib/riviera} {activehdl=E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Test_Windows_data_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'Windows_data_Test_auto_ds_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test_Windows_data_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj Test_Windows_data_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xbar_0/sim/Windows_data_Test_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xbar_1/sim/Windows_data_Test_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_processing_system7_0_1/sim/Windows_data_Test_processing_system7_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_processing_system7_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xlconcat_0_0/sim/Windows_data_Test_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_INACT_DATA_FIFO_0/sim/Windows_data_Test_INACT_DATA_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_INACT_DATA_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_ila_0_0/sim/Windows_data_Test_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_INACT_DATA_FIFO_1/sim/Windows_data_Test_INACT_DATA_FIFO_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_INACT_DATA_FIFO_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_ila_0_3/sim/Windows_data_Test_ila_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_ila_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_Windows_Data_Convert_0_1/sim/Windows_data_Test_Windows_Data_Convert_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_Windows_Data_Convert_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_us_0/sim/Windows_data_Test_auto_us_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_us_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_us_1/sim/Windows_data_Test_auto_us_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_us_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_ds_0/sim/Windows_data_Test_auto_ds_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_ds_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_0/sim/Windows_data_Test_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_4/sim/Windows_data_Test_auto_pc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_1/sim/Windows_data_Test_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_2/sim/Windows_data_Test_auto_pc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_3/sim/Windows_data_Test_auto_pc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/sim/Windows_data_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_axi_interconnect_1_0
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1UXZI4S
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1YXGXNH
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_18C28R1
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_CB5FKE
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_IJFBDB
+INFO: [VRFC 10-311] analyzing module m04_couplers_imp_13YJCND
+INFO: [VRFC 10-311] analyzing module m05_couplers_imp_1YMG8ZS
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_JNLXER
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_K13DF6
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_B73S4I
+INFO: [VRFC 10-311] analyzing module s02_couplers_imp_178BVTT
+INFO: [VRFC 10-311] analyzing module s03_couplers_imp_1W1UQHS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hdl/Windows_data_Test_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv" into library xil_defaultlib
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi_vip_0_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:24]
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi4stream_vip_0_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:26]
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi4stream_vip_1_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:27]
+INFO: [VRFC 10-311] analyzing module Test_Windows_data_tb
+ERROR: [VRFC 10-8530] module 'Test_Windows_data_tb' is ignored due to previous errors [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:31]
+"xvhdl --incr --relax -prj Test_Windows_data_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_axi_dma_0_0/sim/Windows_data_Test_axi_dma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Windows_data_Test_axi_dma_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_axi_dma_1_0/sim/Windows_data_Test_axi_dma_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Windows_data_Test_axi_dma_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_proc_sys_reset_0_0/sim/Windows_data_Test_proc_sys_reset_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Windows_data_Test_proc_sys_reset_0_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1947.863 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1947.863 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+INFO: [Vivado 12-5457] ref source:E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
+generate_target Simulation [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'div_gen_0'. Target already exists and is up to date.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Test_Windows_data_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test_Windows_data_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj Test_Windows_data_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xbar_0/sim/Windows_data_Test_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xbar_1/sim/Windows_data_Test_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_processing_system7_0_1/sim/Windows_data_Test_processing_system7_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_processing_system7_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_xlconcat_0_0/sim/Windows_data_Test_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_INACT_DATA_FIFO_0/sim/Windows_data_Test_INACT_DATA_FIFO_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_INACT_DATA_FIFO_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_ila_0_0/sim/Windows_data_Test_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_INACT_DATA_FIFO_1/sim/Windows_data_Test_INACT_DATA_FIFO_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_INACT_DATA_FIFO_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_ila_0_3/sim/Windows_data_Test_ila_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_ila_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_Windows_Data_Convert_0_1/sim/Windows_data_Test_Windows_Data_Convert_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_Windows_Data_Convert_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_us_0/sim/Windows_data_Test_auto_us_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_us_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_us_1/sim/Windows_data_Test_auto_us_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_us_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_ds_0/sim/Windows_data_Test_auto_ds_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_ds_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_0/sim/Windows_data_Test_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_4/sim/Windows_data_Test_auto_pc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_1/sim/Windows_data_Test_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_2/sim/Windows_data_Test_auto_pc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/ip/Windows_data_Test_auto_pc_3/sim/Windows_data_Test_auto_pc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_auto_pc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.ip_user_files/bd/Windows_data_Test/sim/Windows_data_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_axi_interconnect_1_0
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1UXZI4S
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1YXGXNH
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_18C28R1
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_CB5FKE
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_IJFBDB
+INFO: [VRFC 10-311] analyzing module m04_couplers_imp_13YJCND
+INFO: [VRFC 10-311] analyzing module m05_couplers_imp_1YMG8ZS
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_JNLXER
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_K13DF6
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_B73S4I
+INFO: [VRFC 10-311] analyzing module s02_couplers_imp_178BVTT
+INFO: [VRFC 10-311] analyzing module s03_couplers_imp_1W1UQHS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hdl/Windows_data_Test_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_data_Test_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv" into library xil_defaultlib
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi_vip_0_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:24]
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi4stream_vip_0_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:26]
+ERROR: [VRFC 10-2989] 'Windows_data_Test_axi4stream_vip_1_0_pkg' is not declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:27]
+INFO: [VRFC 10-311] analyzing module Test_Windows_data_tb
+ERROR: [VRFC 10-8530] module 'Test_Windows_data_tb' is ignored due to previous errors [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/Test_Windows_data_tb.sv:31]
+"xvhdl --incr --relax -prj Test_Windows_data_tb_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1969.070 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1969.070 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+open_bd_design {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd}
+set_property top axis_windows_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+INFO: [Vivado 12-5457] ref source:E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
+generate_target Simulation [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'div_gen_0'. Target already exists and is up to date.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axis_windows_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj axis_windows_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/picture_fifo_0/sim/picture_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/axis_data_fifo_0/sim/axis_data_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_windows_tb
+WARNING: [VRFC 10-2938] 'mlast' is already implicitly declared on line 92 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:97]
+WARNING: [VRFC 10-2938] 'mready' is already implicitly declared on line 93 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:98]
+WARNING: [VRFC 10-2938] 'mvalid' is already implicitly declared on line 88 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:99]
+WARNING: [VRFC 10-2938] 'mstrb' is already implicitly declared on line 90 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:100]
+WARNING: [VRFC 10-2938] 'mkeep' is already implicitly declared on line 91 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:101]
+WARNING: [VRFC 10-2938] 'moutdata' is already implicitly declared on line 89 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:102]
+WARNING: [VRFC 10-2938] 'plast' is already implicitly declared on line 82 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:124]
+WARNING: [VRFC 10-2938] 'pready' is already implicitly declared on line 79 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:125]
+WARNING: [VRFC 10-2938] 'pvalid' is already implicitly declared on line 83 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:126]
+WARNING: [VRFC 10-3248] data object 'mstrb' is already declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-9364] second declaration of 'mstrb' is ignored [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-2938] 'pdata' is already implicitly declared on line 80 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:129]
+WARNING: [VRFC 10-2938] 'mmready' is already implicitly declared on line 116 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:161]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj axis_windows_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's01_axi_awaddr' is not connected on this instance [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package div_gen_v5_1_19.div_gen_v5_1_19_viv_comp
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_6.xbip_bram18k_v3_0_6_pkg
+Compiling package div_gen_v5_1_19.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_19.pkg_addsub
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S01_AX...
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_registered=1)(1,0)(1,...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_ainit_val="00000001",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=8)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_ain...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=7)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=6)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=5)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=4)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=3)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=2)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_has...]
+Compiling architecture virtex of entity div_gen_v5_1_19.dividervdc_v [\dividervdc_v(bus_num=8,bus_div=...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=9,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_bus_width=9)(1,0)(1,0...]
+Compiling architecture synth of entity div_gen_v5_1_19.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_v5_1_19_viv [\div_gen_v5_1_19_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_19.div_gen_v5_1_19 [\div_gen_v5_1_19(c_xdevicefamily...]
+Compiling architecture div_gen_0_arch of entity xil_defaultlib.div_gen_0 [div_gen_0_default]
+Compiling module xil_defaultlib.windows(KERNEL_SIZE=4,DATA_HORIZ...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_M00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0(DATA_H...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_cdc_sync_rst(INIT=0,INIT_SYN...
+Compiling module xpm.xpm_fifo_rst(CDC_DEST_SYNC_FF=3)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=9...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.axis_data_fifo_0
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.picture_fifo_0
+Compiling module xil_defaultlib.axis_windows_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axis_windows_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2007.672 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axis_windows_tb_behav -key {Behavioral:sim_1:Functional:axis_windows_tb} -tclbatch {axis_windows_tb.tcl} -protoinst "protoinst_files/Windows_data_Test.protoinst" -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg} -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg} -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg} -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg} -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Windows_data_Test.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Windows_data_Test.protoinst for the following reason(s):
+There are no instances of module "Windows_data_Test" in the design.
+
+Time resolution is 1 ps
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg
+WARNING: Simulation object /conv_tb/convtb/clk was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/rstn was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[0].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[1].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[2].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[3].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/reg_outWtPs[3] was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Sum_valid was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/io_outSum was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/start was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/state was not found in the design.
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/CONV_00/clk was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/CONV_00/rstn was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/start was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/io_Max_MeanValid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/io_outSum was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/pool_finish was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/out_valid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/POOL/state was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_aresetn was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_aclk was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_tvalid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_tready was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_tdata was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/s_axis_tlast was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/m_axis_tvalid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/m_axis_tready was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/m_axis_tdata was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/fifo_act/m_axis_tlast was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/result_tready was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/result_tvalid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/result_tdata was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_tb/CNN_Accelerator_00/cnn_done was not found in the design.
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/aclk was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/aresetn was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_awaddr was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_awprot was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_awvalid was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_awready was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_wdata was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_wstrb was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_wvalid was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_wready was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_bresp was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_bvalid was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_bready was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_araddr was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_arprot was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_arvalid was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_arready was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_rdata was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_rresp was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_rvalid was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/m_axi_rready was not found in the design.
+WARNING: Simulation object /Test_Windows_data_tb/u_design_axi_vip_wrapper/Windows_data_Test_i/axi_vip_0/M_AXI was not found in the design.
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL/clk was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL/rstn was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/cnn_cnt was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL_Act was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL_Outsum was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL_Outsum_Valid was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL_Finish was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL/pool_finish was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL/finish was not found in the design.
+WARNING: Simulation object /CNN_Accelerator_system_Test/CNN_Accelerator_00/POOL/Pool_0/reg_outAnswer was not found in the design.
+source axis_windows_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo1/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_166  Scope: axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_221  Scope: axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axis_windows_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2046.480 ; gain = 38.809
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+create_peripheral xilinx.com user Windows_Slide 1.0 -dir E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo
+add_peripheral_interface S00_AXIS -interface_mode slave -axi_type stream [ipx::find_open_core xilinx.com:user:Windows_Slide:1.0]
+add_peripheral_interface M00_AXIS -interface_mode master -axi_type stream [ipx::find_open_core xilinx.com:user:Windows_Slide:1.0]
+add_peripheral_interface S02_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:Windows_Slide:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:Windows_Slide:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:Windows_Slide:1.0]
+set_property  ip_repo_paths  {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0 f:/Digital_IC_design/dpu_ip} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+ipx::edit_ip_in_project -upgrade true -name edit_Windows_Slide_v1_0 -directory E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+close [ open E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/new/CNN_Control/windows.v w ]
+add_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/new/CNN_Control/windows.v
+update_compile_order -fileset sources_1
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+current_project Accelerator
+current_project edit_Windows_Slide_v1_0
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+create_ip -name div_gen -vendor xilinx.com -library ip -version 5.1 -module_name div_gen_0 -dir e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src
+set_property -dict [list CONFIG.dividend_and_quotient_width {8} CONFIG.divisor_width {8} CONFIG.latency_configuration {Manual} CONFIG.latency {1} CONFIG.fractional_width {8}] [get_ips div_gen_0]
+generate_target {instantiation_template} [get_files e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'div_gen_0'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src/div_gen_0/div_gen_0.xci]
+generate_target all [get_files  e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'div_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'div_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'div_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'div_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'div_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'div_gen_0'...
+export_ip_user_files -of_objects [get_files e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src/div_gen_0/div_gen_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/src/div_gen_0/div_gen_0.xci] -directory e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.ip_user_files/sim_scripts -ip_user_files_dir e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.ip_user_files -ipstatic_source_dir e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.ip_user_files/ipstatic -lib_map_path [list {modelsim=e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.cache/compile_simlib/modelsim} {questa=e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.cache/compile_simlib/questa} {riviera=e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.cache/compile_simlib/riviera} {activehdl=e:/accelerator/lab2_homework_axis_axilite_rtl/ip_repo/edit_Windows_Slide_v1_0.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] div_gen_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-4963] div_gen_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0/component.xml' ignored by IP packager.
+INFO: [Ipptcl 7-560]  
+INFO: [Ipptcl 7-560]  
+CRITICAL WARNING: [IP_Flow 19-4835] Multiple IP ports (s02_axi_rready s02_axi_rvalid s02_axi_rresp s02_axi_rdata s02_axi_arready s02_axi_arvalid s02_axi_arprot s02_axi_araddr s02_axi_bready s02_axi_bvalid s02_axi_bresp s02_axi_wready s02_axi_wvalid s02_axi_wstrb s02_axi_wdata s02_axi_awready s02_axi_awvalid s02_axi_awprot s02_axi_awaddr) were removed from the interface 'S02_AXI'. Please review the IP interface 'S02_AXI'.
+CRITICAL WARNING: [IP_Flow 19-4834] IP port (s02_axi_aresetn) was removed from the interface 'S02_AXI_RST'. Please review the IP interface 'S02_AXI_RST'.
+CRITICAL WARNING: [IP_Flow 19-4834] IP port (s02_axi_aclk) was removed from the interface 'S02_AXI_CLK'. Please review the IP interface 'S02_AXI_CLK'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's01_axi_aresetn'.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+WARNING: [IP_Flow 19-5905] All packaged files should be located below the IP definition file (xml)
+WARNING: [IP_Flow 19-5661] Bus Interface 's01_axi_aclk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-1980] The memory map 'S02_AXI' is not referenced by any bus interface.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0'
+open_bd_design {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:Windows_Slide:1.0 Windows_Slide_0
+endgroup
+set_property location {4 1271 564} [get_bd_cells Windows_Slide_0]
+delete_bd_objs [get_bd_cells Windows_Slide_0]
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/axi_vip_0/axi_vip_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset axi_vip_0 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/axi_vip_0/axi_vip_0.xci
+INFO: [Project 1-386] Moving file 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/axi_vip_0/axi_vip_0.xci' from fileset 'axi_vip_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_weight/fifo_weight.xci] -no_script -reset -force -quiet
+remove_files  E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_weight/fifo_weight.xci
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci] -no_script -reset -force -quiet
+remove_files  E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_weightfc/fifo_weightfc.xci
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_pe/ila_pe.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_pe E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_pe/ila_pe.xci
+INFO: [Project 1-386] Moving file 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_pe/ila_pe.xci' from fileset 'ila_pe' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_conv/ila_conv.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_conv E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_conv/ila_conv.xci
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.runs/ila_conv_synth_1
+
+INFO: [Project 1-386] Moving file 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_conv/ila_conv.xci' from fileset 'ila_conv' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_window/ila_window.xci] -no_script -reset -force -quiet
+remove_files  E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/ila_window/ila_window.xci
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci] -no_script -reset -force -quiet
+remove_files  E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/fifo_result/fifo_result.xci
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/utils_1/imports/synth_1/Conv_SystolicArray.dcp
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/conv/conv_tb_behav.wcfg
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/cnn/CNN_Accelerator_tb_behav.wcfg
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/CNN_System_tb/CNN_Accelerator_system_Test_behav.wcfg
+export_ip_user_files -of_objects  [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/windows_data_axi_test_behav.wcfg
+save_bd_design
+Wrote  : <E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.srcs\sources_1\bd\Windows_data_Test\Windows_data_Test.bd> 
+Wrote  : <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/ui/bd_22a3e04b.ui> 
+INFO: [Vivado 12-5457] ref source:E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci
+generate_target Simulation [get_files E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'div_gen_0'. Target already exists and is up to date.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'Windows_data_Test_Windows_Slide_0_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axis_windows_tb' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/ip/Windows_data_Test_Windows_Slide_0_0/Windows_data_Test_Windows_Slide_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj axis_windows_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/picture_fifo_0/sim/picture_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/axis_data_fifo_0/sim/axis_data_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_windows_tb
+WARNING: [VRFC 10-2938] 'mlast' is already implicitly declared on line 92 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:97]
+WARNING: [VRFC 10-2938] 'mready' is already implicitly declared on line 93 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:98]
+WARNING: [VRFC 10-2938] 'mvalid' is already implicitly declared on line 88 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:99]
+WARNING: [VRFC 10-2938] 'mstrb' is already implicitly declared on line 90 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:100]
+WARNING: [VRFC 10-2938] 'mkeep' is already implicitly declared on line 91 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:101]
+WARNING: [VRFC 10-2938] 'moutdata' is already implicitly declared on line 89 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:102]
+WARNING: [VRFC 10-2938] 'plast' is already implicitly declared on line 82 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:124]
+WARNING: [VRFC 10-2938] 'pready' is already implicitly declared on line 79 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:125]
+WARNING: [VRFC 10-2938] 'pvalid' is already implicitly declared on line 83 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:126]
+WARNING: [VRFC 10-3248] data object 'mstrb' is already declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-9364] second declaration of 'mstrb' is ignored [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-2938] 'pdata' is already implicitly declared on line 80 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:129]
+WARNING: [VRFC 10-2938] 'mmready' is already implicitly declared on line 116 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:161]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj axis_windows_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2205.605 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's01_axi_awaddr' is not connected on this instance [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package div_gen_v5_1_19.div_gen_v5_1_19_viv_comp
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_6.xbip_bram18k_v3_0_6_pkg
+Compiling package div_gen_v5_1_19.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_19.pkg_addsub
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S01_AX...
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_registered=1)(1,0)(1,...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_ainit_val="00000001",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=8)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_ain...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=7)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=6)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=5)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=4)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=3)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=2)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_has...]
+Compiling architecture virtex of entity div_gen_v5_1_19.dividervdc_v [\dividervdc_v(bus_num=8,bus_div=...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=9,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_bus_width=9)(1,0)(1,0...]
+Compiling architecture synth of entity div_gen_v5_1_19.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_v5_1_19_viv [\div_gen_v5_1_19_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_19.div_gen_v5_1_19 [\div_gen_v5_1_19(c_xdevicefamily...]
+Compiling architecture div_gen_0_arch of entity xil_defaultlib.div_gen_0 [div_gen_0_default]
+Compiling module xil_defaultlib.windows(KERNEL_SIZE=4,DATA_HORIZ...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_M00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0(DATA_H...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_cdc_sync_rst(INIT=0,INIT_SYN...
+Compiling module xpm.xpm_fifo_rst(CDC_DEST_SYNC_FF=3)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=9...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.axis_data_fifo_0
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.picture_fifo_0
+Compiling module xil_defaultlib.axis_windows_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axis_windows_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2205.605 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axis_windows_tb_behav -key {Behavioral:sim_1:Functional:axis_windows_tb} -tclbatch {axis_windows_tb.tcl} -protoinst "protoinst_files/Windows_data_Test.protoinst" -view {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Windows_data_Test.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Windows_data_Test.protoinst for the following reason(s):
+There are no instances of module "Windows_data_Test" in the design.
+
+Time resolution is 1 ps
+open_wave_config E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg
+WARNING: Simulation object /conv_tb/convtb/clk was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/rstn was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[0].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[1].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[2].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[3].wire_outWtPs  was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Conv_Array_0/reg_outWtPs[3] was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/Sum_valid was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/io_outSum was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/start was not found in the design.
+WARNING: Simulation object /conv_tb/convtb/state was not found in the design.
+source axis_windows_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo1/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_166  Scope: axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_221  Scope: axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axis_windows_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 2205.605 ; gain = 0.000
+current_wave_config {window_tb_behav.wcfg}
+window_tb_behav.wcfg
+add_wave {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_WINDOW_DATA}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_DATA_VALID}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_DATA_LAST}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/Kernel_size}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_ACLK}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_ARESETN}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TVALID}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TDATA}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TSTRB}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TKEEP}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TLAST}} {{/axis_windows_tb/test_aix_windows/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TREADY}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axis_windows_tb' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/ip/Windows_data_Test_Windows_Slide_0_0/Windows_data_Test_Windows_Slide_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj axis_windows_tb_vlog.prj"
+"xvhdl --incr --relax -prj axis_windows_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2223.344 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's01_axi_awaddr' is not connected on this instance [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:54]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Windows_data_Test.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Windows_data_Test.protoinst for the following reason(s):
+There are no instances of module "Windows_data_Test" in the design.
+
+Time resolution is 1 ps
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo1/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_166  Scope: axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_221  Scope: axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 2223.344 ; gain = 0.000
+run all
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_12 -L processing_system7_vip_v1_0_14 -L xilinx_vip -prj axis_windows_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/picture_fifo_0/sim/picture_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picture_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/ip/axis_data_fifo_0/sim/axis_data_fifo_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_data_fifo_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_M00_AXIS
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_M00_AXIS.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/Windows_Data_Convert_v1_0_S01_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Windows_Data_Convert_v1_0_S01_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module windows
+WARNING: [VRFC 10-2938] 'divider_out_valid' is already implicitly declared on line 112 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:115]
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/imports/window_ip/windows.v:167]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_windows_tb
+WARNING: [VRFC 10-2938] 'mlast' is already implicitly declared on line 92 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:97]
+WARNING: [VRFC 10-2938] 'mready' is already implicitly declared on line 93 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:98]
+WARNING: [VRFC 10-2938] 'mvalid' is already implicitly declared on line 88 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:99]
+WARNING: [VRFC 10-2938] 'mstrb' is already implicitly declared on line 90 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:100]
+WARNING: [VRFC 10-2938] 'mkeep' is already implicitly declared on line 91 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:101]
+WARNING: [VRFC 10-2938] 'moutdata' is already implicitly declared on line 89 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:102]
+WARNING: [VRFC 10-2938] 'plast' is already implicitly declared on line 82 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:124]
+WARNING: [VRFC 10-2938] 'pready' is already implicitly declared on line 79 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:125]
+WARNING: [VRFC 10-2938] 'pvalid' is already implicitly declared on line 83 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:126]
+WARNING: [VRFC 10-3248] data object 'mstrb' is already declared [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-9364] second declaration of 'mstrb' is ignored [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:128]
+WARNING: [VRFC 10-2938] 'pdata' is already implicitly declared on line 80 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:129]
+WARNING: [VRFC 10-2938] 'mmready' is already implicitly declared on line 116 [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:161]
+"xvhdl --incr --relax -prj axis_windows_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2223.898 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'axis_windows_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axis_data_fifo_v2_0_8 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_18 -L floating_point_v7_0_20 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_19 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_windows_tb_behav xil_defaultlib.axis_windows_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's01_axi_awaddr' is not connected on this instance [E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/new/axis_windows_tb.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package div_gen_v5_1_19.div_gen_v5_1_19_viv_comp
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_6.xbip_bram18k_v3_0_6_pkg
+Compiling package div_gen_v5_1_19.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_19.pkg_addsub
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S01_AX...
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_registered=1)(1,0)(1,...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=8,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_ainit_val="00000001",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=8)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_ain...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=7)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=6)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=5)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=4)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=3)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=2)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_sinit_va...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_19.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_19.addsubreg_v [\addsubreg_v(c_bus_width=9,c_has...]
+Compiling architecture virtex of entity div_gen_v5_1_19.dividervdc_v [\dividervdc_v(bus_num=8,bus_div=...]
+Compiling architecture synth of entity div_gen_v5_1_19.c_twos_comp_viv [\c_twos_comp_viv(c_width=9,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_19.cmp2s_v [\cmp2s_v(c_bus_width=9)(1,0)(1,0...]
+Compiling architecture synth of entity div_gen_v5_1_19.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_19.div_gen_v5_1_19_viv [\div_gen_v5_1_19_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_19.div_gen_v5_1_19 [\div_gen_v5_1_19(c_xdevicefamily...]
+Compiling architecture div_gen_0_arch of entity xil_defaultlib.div_gen_0 [div_gen_0_default]
+Compiling module xil_defaultlib.windows(KERNEL_SIZE=4,DATA_HORIZ...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_S00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0_M00_AX...
+Compiling module xil_defaultlib.Windows_Data_Convert_v1_0(DATA_H...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_cdc_sync_rst(INIT=0,INIT_SYN...
+Compiling module xpm.xpm_fifo_rst(CDC_DEST_SYNC_FF=3)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=9...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.axis_data_fifo_0
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module axis_infrastructure_v1_1_0.axis_infrastructure_v1_1_0_util_...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module axis_data_fifo_v2_0_8.axis_data_fifo_v2_0_8_top(C_FAMI...
+Compiling module xil_defaultlib.picture_fifo_0
+Compiling module xil_defaultlib.axis_windows_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axis_windows_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2223.898 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2223.898 ; gain = 0.000
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Windows_data_Test.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Windows_data_Test.protoinst for the following reason(s):
+There are no instances of module "Windows_data_Test" in the design.
+
+Time resolution is 1 ps
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo1/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_166  Scope: axis_windows_tb.fifo1.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc
+Time: 1 ps  Iteration: 0  Process: /axis_windows_tb/fifo0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial299_221  Scope: axis_windows_tb.fifo0.inst.\gen_fifo.xpm_fifo_axis_inst .xpm_fifo_base_inst.\gen_sdpram.xpm_memory_base_inst .config_drc  File: F:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 493
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 2223.898 ; gain = 0.000
+run all
+save_wave_config {E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sim_1/imports/behav/window_tb/window_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_module_reference Windows_data_Test_Windows_Data_Convert_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm00_axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's01_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's01_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 'm00_axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'm00_axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's00_axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's01_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's01_axi_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Windows_Slide_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_package_rtl/CNN_Control'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/CNN_Control/CNN_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/IP_design/Windows_Data_Convert_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/ip_repo/Accelerator_Control_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Digital_IC_design/dpu_ip'.
+Upgrading 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/Windows_data_Test.bd'
+INFO: [IP_Flow 19-3420] Updated Windows_data_Test_Windows_Data_Convert_0_1 to use current project options
+Wrote  : <E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.srcs\sources_1\bd\Windows_data_Test\Windows_data_Test.bd> 
+Wrote  : <E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/bd/Windows_data_Test/ui/bd_22a3e04b.ui> 
+reset_run synth_1
+INFO: [Project 1-1160] Copying file E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.runs/synth_1/Windows_data_Test_wrapper.dcp to E:/Accelerator/Accelerator/Accelerator.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.srcs/sources_1/ip/div_gen_0/div_gen_0.xci' is already up-to-date
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M03_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M05_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/axi_interconnect_1/M02_AXI'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-1781] Updates have been made to one or more nets/interface connections marked for debug.
+Debug nets, which are already connected to any ILA IP core in the block-design, will be automatically available for debug in Hardware Manager.
+For unconnected Debug nets, please open synthesized design and use 'Set Up Debug' wizard to insert, modify or delete Debug Cores. 
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /axi_interconnect_1/xbar/M05_AXI'
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /axi_interconnect_0/S02_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /axi_interconnect_0/S03_AXI'
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+WARNING: [IP_Flow 19-4684] Expected long value for param C_ILA_CLK_FREQ but, float/scientific notation value 5e+07 is provided. The value is converted to long type(50000000)
+Wrote  : <E:\Accelerator\Lab2_Homework_AXIS_AXILITE_RTL\Windows_Slide_Design_rtl\Accelerator.srcs\sources_1\bd\Windows_data_Test\Windows_data_Test.bd> 
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/synth/Windows_data_Test.v
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/sim/Windows_data_Test.v
+Verilog Output written to : e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hdl/Windows_data_Test_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block INACT_DATA_FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_outw .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Picture .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Windows_Data_Convert_0 .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s01_couplers/auto_us .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m04_couplers/auto_pc .
+Exporting to file e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/hw_handoff/Windows_data_Test.hwh
+Generated Hardware Definition File e:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.gen/sources_1/bd/Windows_data_Test/synth/Windows_data_Test.hwdef
+[Wed Jul 17 21:04:06 2024] Launched synth_1...
+Run output will be captured here: E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.runs/synth_1/runme.log
+[Wed Jul 17 21:04:07 2024] Launched impl_1...
+Run output will be captured here: E:/Accelerator/Lab2_Homework_AXIS_AXILITE_RTL/Windows_Slide_Design_rtl/Accelerator.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 2271.062 ; gain = 33.750
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 15:06:46 2024...
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 17 21:21:05 2024...

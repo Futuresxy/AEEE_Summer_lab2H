@@ -1,4 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../bd/Windows_data_Test/ip/Windows_data_Test_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_0732_psr_aclk_0.vhd" \
-
-nosort

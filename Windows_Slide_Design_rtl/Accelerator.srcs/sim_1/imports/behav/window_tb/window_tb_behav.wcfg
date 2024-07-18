@@ -3,69 +3,127 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="conv_tb_behav.wdb" id="1">
+      <db_ref path="axis_windows_tb_behav.wdb" id="1">
          <top_modules>
-            <top_module name="conv_tb" />
+            <top_module name="axis_windows_tb" />
             <top_module name="glbl" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="565.001 ns"></ZoomEndTime>
-      <Cursor1Time time="40.000 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3.710001 us"></ZoomEndTime>
+      <Cursor1Time time="1.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="184"></NameColumnWidth>
-      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
-   <wvobject fp_name="/conv_tb/convtb/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_WINDOW_DATA" type="array">
+      <obj_property name="ElementShortName">OUT_WINDOW_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_WINDOW_DATA[127:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/rstn" type="logic">
-      <obj_property name="ElementShortName">rstn</obj_property>
-      <obj_property name="ObjectShortName">rstn</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_DATA_VALID" type="logic">
+      <obj_property name="ElementShortName">OUT_DATA_VALID</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA_VALID</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[0].wire_outWtPs " type="array">
-      <obj_property name="ElementShortName">\Vertical[3].Horizontal[0].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="ObjectShortName">\Vertical[3].Horizontal[0].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/OUT_DATA_LAST" type="logic">
+      <obj_property name="ElementShortName">OUT_DATA_LAST</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA_LAST</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[1].wire_outWtPs " type="array">
-      <obj_property name="ElementShortName">\Vertical[3].Horizontal[1].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="ObjectShortName">\Vertical[3].Horizontal[1].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/Kernel_size" type="array">
+      <obj_property name="ElementShortName">Kernel_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Kernel_size[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[2].wire_outWtPs " type="array">
-      <obj_property name="ElementShortName">\Vertical[3].Horizontal[2].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="ObjectShortName">\Vertical[3].Horizontal[2].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_ACLK" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_ACLK</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_ACLK</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Conv_Array_0/\Vertical[3].Horizontal[3].wire_outWtPs " type="array">
-      <obj_property name="ElementShortName">\Vertical[3].Horizontal[3].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="ObjectShortName">\Vertical[3].Horizontal[3].wire_outWtPs [15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_ARESETN" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_ARESETN</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Conv_Array_0/reg_outWtPs[3]" type="array">
-      <obj_property name="ElementShortName">[3][63:0]</obj_property>
-      <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/Sum_valid" type="logic">
-      <obj_property name="ElementShortName">Sum_valid</obj_property>
-      <obj_property name="ObjectShortName">Sum_valid</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[127:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/io_outSum" type="array">
-      <obj_property name="ElementShortName">io_outSum[63:0]</obj_property>
-      <obj_property name="ObjectShortName">io_outSum[63:0]</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TSTRB" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TSTRB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TSTRB[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/start" type="array">
-      <obj_property name="ElementShortName">start[1:0]</obj_property>
-      <obj_property name="ObjectShortName">start[1:0]</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TKEEP" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TKEEP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TKEEP[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/conv_tb/convtb/state" type="array">
-      <obj_property name="ElementShortName">state[4:0]</obj_property>
-      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TLAST" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/M_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/axis_tvalid_delay" type="logic">
+      <obj_property name="ElementShortName">axis_tvalid_delay</obj_property>
+      <obj_property name="ObjectShortName">axis_tvalid_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/axis_tlast" type="logic">
+      <obj_property name="ElementShortName">axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/stream_data_out" type="array">
+      <obj_property name="ElementShortName">stream_data_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">stream_data_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/data_tstrb" type="array">
+      <obj_property name="ElementShortName">data_tstrb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tstrb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/data_tkeep" type="array">
+      <obj_property name="ElementShortName">data_tkeep[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tkeep[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/KERNEL_SIZE" type="array">
+      <obj_property name="ElementShortName">KERNEL_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">KERNEL_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/C_M_AXIS_PARA_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_M_AXIS_PARA_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_M_AXIS_PARA_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_M00_AXIS_inst/C_M_AXIS_TDATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_M_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_M_AXIS_TDATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_S01_AXI_inst/Data_horizontal" type="array">
+      <obj_property name="ElementShortName">Data_horizontal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_horizontal[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_S01_AXI_inst/Data_vertical" type="array">
+      <obj_property name="ElementShortName">Data_vertical[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_vertical[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_S01_AXI_inst/Kernel_size" type="array">
+      <obj_property name="ElementShortName">Kernel_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Kernel_size[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_S01_AXI_inst/Stride" type="array">
+      <obj_property name="ElementShortName">Stride[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Stride[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_windows_tb/test_aix_windows/inst/Windows_Data_Convert_v1_0_S01_AXI_inst/Refresh" type="logic">
+      <obj_property name="ElementShortName">Refresh</obj_property>
+      <obj_property name="ObjectShortName">Refresh</obj_property>
    </wvobject>
 </wave_config>
